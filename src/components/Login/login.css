@@ -1,0 +1,67 @@
+.login-container{
+    display: flex;
+    height: 100svh;
+}
+.login-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background: rgb(188,53,85);
+    background: linear-gradient(277deg, rgba(188,53,85,1) 20%, rgba(226,94,100,1) 75%);
+    position: relative;
+}
+.login-title h1{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+.login-title h1 span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.login-icon{
+    background: rgb(188,53,85);
+    background: linear-gradient(277deg, rgba(188,53,85,1) 20%, rgba(226,94,100,1) 75%);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    top: 44%;
+    left: 36%;
+}
+.login-icon img{
+    width: 60px;
+    transform: rotate(-90deg);
+}
+.login-text{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.input-container{
+    margin: 10% 0;
+}
+.login-text button{
+    margin: 10% 0;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+    background: rgb(188,53,85);
+    background: linear-gradient(277deg, rgba(188,53,85,1) 20%, rgba(226,94,100,1) 75%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-text button:hover{
+    color: black;
+    background: rgb(188,53,85);
+    background: linear-gradient(81deg, rgba(188,53,85,1) 20%, rgba(226,94,100,1) 75%);
+ }
